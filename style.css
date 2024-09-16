@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+@font-face {
+    font-family: 'Product Sans Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Product Sans Regular'), url('ProductSans-Regular.woff') format('woff');
+    }
+
+body{
+    margin: 0px;
+}
+
+.content{
+    width: 100vw;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: rgba(0,0,0,.027);
+
+}
+
+h1{
+    margin: 0px;
+
+    /* font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal; */
+
+    font-family: 'Product Sans Regular';
+    font-style: normal;
+    font-size: 34px;
+    font-weight: 400;
+    color: #3c4043;
+    background-color: white;
+    line-height: 60px;
+}
+
+.title{
+    width: 100vw;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+}
+
+.article{
+    width: 100vw;
+    height: 100%;
+}
+
+.image{
+    background-color: rgba(255, 0, 0, 0);
+    height: 500px;
+    width: 100vw;
+}
+
+.image img{
+    width: 800px;
+    height: 500px;
+    object-fit: contain;
+}
+
+h2{
+    font-family: 'Product Sans Regular';
+    font-style: normal;
+    font-weight: 400;
+    color: #3c4043;
+}
+
+p{
+    width: 400px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ol{
+    width: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+li{
+    margin: 30px;
+
+}
